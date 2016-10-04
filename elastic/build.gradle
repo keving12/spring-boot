@@ -1,0 +1,10 @@
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-parent:1.4.0.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web:1.4.0.RELEASE'
+    compile 'org.springframework.data:spring-data-commons-core:1.4.0.RELEASE'
+    compile 'org.elasticsearch:elasticsearch:2.3.0'
+}
+
+bootRepackage {
+    mainClass = 'com.kg.driver.Application'
+}

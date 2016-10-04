@@ -1,0 +1,13 @@
+elasticNodes :
+    - 192.168.1.99:9300
+
+clusterName : dev-cluster
+
+sourceIndex : car_driver_v1
+destinationIndex : car_driver_v1
+destinationType : data_v2
+
+scrollSize: 100
+
+# How long to keep the scroll window open for (ms)
+searchContextTimeValue: 60000
